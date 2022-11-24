@@ -78,4 +78,7 @@ Exit psql shell
 ```bash
 \q
 ```
-
+To beutify the query output with horizontal table formate 
+```bash
+\x on
+```
