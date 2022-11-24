@@ -17,6 +17,11 @@ Check DB size in GB
 ```bash
 SELECT pg_size_pretty( pg_database_size('dbname') );
 ```
+To determine the size of a table in the current databas
+```bash
+
+SELECT pg_size_pretty( pg_total_relation_size('tablename') );
+```
 List available tables in db
 ```bash
 \dt
