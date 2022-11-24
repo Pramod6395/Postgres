@@ -13,6 +13,10 @@ Switch connection to a new database
 ```bash
 \c <databaseName>
 ```
+Check DB size in GB
+```bash
+SELECT pg_size_pretty( pg_database_size('dbname') );
+```
 List available tables in db
 ```bash
 \dt
