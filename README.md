@@ -86,3 +86,12 @@ To beutify the query output with horizontal table formate
 ```bash
 \x on
 ```
+DROP database
+```bash
+DROP DATABASE <dbname>
+```
+DROP database ForceFully Even session are active with users
+```bash
+DROP DATABASE <database name> WITH (FORCE);
+```
+
