@@ -30,6 +30,10 @@ Describe a table such as a column, type, modifiers of columns, etc.
 ```bash
 \d <table_name>
 ```
+Truncate table
+```bash
+TRUNCATE TABLE <tableName> ;
+```
 List all schemes of the currently connected database
 ```bash
 \dn
